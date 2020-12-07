@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resources allowLinking="true" />
+  <Resource name="jdbc/tomcat"   
+        auth="Container"   
+        type="javax.sql.DataSource"  
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"   
+        maxActive="100"  
+        maxIdle="30"     
+        maxWait="1000"   
+        username="tomcat"    
+        password="tomcat"   
+        driverClassName="com.mysql.cj.jdbc.Driver"   
+        url="jdbc:mysql://localhost:3306/tomcat?characterEncoding=UTF-8" />     
+          
+</Context>
+
